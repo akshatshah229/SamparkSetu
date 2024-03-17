@@ -3,8 +3,8 @@ from django.views.decorators.http import require_http_methods
 
 from .models import Todo
 
-def about(request):
-    return render(request,'about.html')
+def contactus(request):
+    return render(request,'contactus.html')
 
 def home(request):
     todos = Todo.objects.all()
