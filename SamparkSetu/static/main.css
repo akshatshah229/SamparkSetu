@@ -7,7 +7,7 @@
 
 body{
     background-color: #D1E8F0;
-/*    height: 200vh;*/
+    height: 140vh;
 }
 
 header {
@@ -176,11 +176,29 @@ img{
     border-radius: 10px;
 }
 
-@media screen and (max-height: 1200px){
-    body{
-        height: 180vh;
-    }
-    .container-cu{
-    width: 80%;}
+.form-container{
+    margin-left:25%;
+    margin-right: 10%;
+    border-style: solid !important;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    padding: 1% 1%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 30px rgba(0,0,0,0.09);
+}
 
+.form-text-input{
+    width: 50%;
+}
+@media screen and (max-height: 1300px){
+    body{
+        height: 165vh;
+    }
+}
+
+@media screen and (max-height: 1150px){
+    body{
+        height: 190vh;
+    }
 }
